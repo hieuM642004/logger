@@ -1,4 +1,4 @@
-# logify-node-js
+# logify-log-js
 
 A simple and customizable logging utility for Node.js, allowing you to log messages with different levels (info, warn, error, debug) to both the console and a log file. The log messages are formatted with a timestamp for better readability.
 
@@ -7,7 +7,7 @@ A simple and customizable logging utility for Node.js, allowing you to log messa
 To install the package via npm, run the following command:
 
 ```bash
-npm install logify-node-js
+npm install logify-log-js
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm install logify-node-js
 To use the logger in your project, simply import the `logger` instance and use it to log messages.
 
 ```javascript
-import { logger } from 'logify-node-js';
+import { logger } from 'logify-log-js';
 
 logger.log('info', 'This is an informational message');
 logger.log('warn', 'This is a warning message');
@@ -46,7 +46,7 @@ logger.log('debug', 'Debug message');
 By default, the logger writes to a file named `logs.txt`. You can specify your own log file name when initializing the `Logger` class.
 
 ```javascript
-import { logger } from 'logify-node-js';
+import { logger } from 'logify-log-js';
 
 const customLogger = new Logger('custom-log.txt');
 customLogger.log('info', 'This message will be logged to custom-log.txt');
