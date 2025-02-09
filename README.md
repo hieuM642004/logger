@@ -1,4 +1,3 @@
-```markdown
 # logify-node-js
 
 A simple and customizable logging utility for Node.js, allowing you to log messages with different levels (info, warn, error, debug) to both the console and a log file. The log messages are formatted with a timestamp for better readability.
@@ -10,8 +9,6 @@ To install the package via npm, run the following command:
 ```bash
 npm install logify-node-js
 ```
-
-Replace `logify-node-js` with the actual name of your package when it's published on npm.
 
 ## Usage
 
@@ -99,4 +96,3 @@ This project is licensed under the MIT License.
 ## Author
 
 Le Minh Hieu
-```
